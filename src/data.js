@@ -3,7 +3,7 @@ const data = {
     "Beginner":[
         {
             id: "B1",
-            image:"/assets/images/Raigad.jpg",
+            image:"/public/assets/images/Raigad.jpg",
             name: "Raigad",
             time: "1-Day 1-Night",
             description: "Raigad Fort is a magnificent hill fortress, situated in the Raigad district of Maharashtra. It lies approximately 125 km away from Pune and serves as one of the major excursion of the city. The fort once served as the capital of Chhatrapati Shivaji, the Great Maratha king, in 1674. It was around this time only that Shivaji was crowned the King of a Marathi kingdom. Perched at an altitude of 1350 m or 4530 feet above sea level, Raigarh fort falls under the Sahyadri Mountain range of India."
