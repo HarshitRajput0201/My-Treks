@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/My-Treks/static/css/main.90b3ad9b.css",
+    "main.js": "/My-Treks/static/js/main.5c781862.js",
+    "index.html": "/My-Treks/index.html",
+    "main.90b3ad9b.css.map": "/My-Treks/static/css/main.90b3ad9b.css.map",
+    "main.5c781862.js.map": "/My-Treks/static/js/main.5c781862.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.90b3ad9b.css",
+    "static/js/main.5c781862.js"
+  ]
+}
