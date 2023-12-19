@@ -1,0 +1,53 @@
+.treks{
+    display: grid;
+    width: 1200px;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* grid-template-rows: 1fr 1fr 1fr; */
+    padding: 3rem 0;
+}
+
+@media all and (min-width: 1024px) and (max-width: 1280px) { 
+
+    .treks{
+        width: 1000px;
+        gap: 3rem;
+        grid-template-columns: 1fr 1fr 1fr;
+        /* grid-template-rows: 1fr 1fr 1fr; */
+    }
+}
+
+@media all and (min-width: 768px) and (max-width: 1024px) {
+
+    .treks{
+        width: 700px;
+        gap: 3rem;
+        grid-template-columns:  1fr 1fr;
+        /* grid-template-rows: 1fr 1fr 1fr; */
+    }
+ }
+
+@media all and (min-width: 480px) and (max-width: 768px) {
+
+
+    .treks{
+        width: 400px;
+        gap: 3rem;
+        grid-template-columns:  1fr;
+        /* grid-template-rows: 1fr 1fr 1fr; */
+    }
+ }
+
+@media all and (max-width: 480px) {
+
+    .treks{
+        width: 350px;
+        gap: 3rem;
+        grid-template-columns:  1fr;
+        /* grid-template-rows: 1fr 1fr 1fr;*/
+    } 
+
+
+ }

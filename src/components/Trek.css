@@ -1,0 +1,84 @@
+.trek{
+ /* border: 2px solid black; */
+ width: 100%;
+ height: 100%;
+ border-radius: .5rem;
+ background-color: var(--color-tertiary);
+}
+
+.trek img{
+    width: 100%;
+    border-radius: .35rem .35rem 0rem 0rem;
+}
+
+.trek h3{
+    text-align: center;
+    padding: .5rem;
+    color: var(--color-background);
+    font-size: 1.5rem;
+
+}
+
+/* .trek p{
+    text-align: justify;
+    padding: 0 1rem;
+    overflow: auto;
+    height: 200px;
+} */
+
+.trek p {
+    text-align: justify;
+    padding: 0 1rem;
+    overflow-y: scroll; /* Use overflow-y to apply styling to the vertical scrollbar */
+    height: 200px;
+  
+    /* WebKit browsers (Chrome, Safari) */
+    scrollbar-width: thin;
+    scrollbar-color: #888 #f1f1f1;
+  
+    /* For WebKit browsers like Chrome and Safari */
+    &::-webkit-scrollbar {
+      width: 6px;
+    }
+  
+    &::-webkit-scrollbar-thumb {
+      background-color: var(--color-background);
+      border-radius: 6px;
+    }
+  
+    &::-webkit-scrollbar-track {
+      background-color: #f1f1f1;
+      border-radius: 6px;
+    }
+  }
+
+.trek h4{
+    /* text-align: center; */
+    padding: .5rem 1rem;
+    color: var(--color-background);
+
+}
+
+.trek .button{
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+} 
+
+.button button{
+    transition: .25s ease;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--color-background);
+    padding: 0.5rem 2rem;
+    border-radius: 0.25rem;
+    
+}
+
+.button button:hover{
+    transition: .25s ease;
+    box-shadow: 0 0 5px 3px white;
+    cursor: pointer;
+}
