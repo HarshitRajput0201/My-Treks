@@ -58,7 +58,7 @@ const data = {
         },
         {
             id:"A2",
-            image: "https://res.cloudinary.com/deapwdwgc/image/upload/v1706160297/My%20Treks/Bhairavgad_xjmmlz.jpg",
+            image: "https://res.cloudinary.com/deapwdwgc/image/upload/v1706160297/My%20Treks/AMK_nqk8vx.jpg",
             name: "Bhairavgad",
             time: "1-Day 1-Night",
             description: "Bhairavgad fort established near Malshej Ghat, Western Sahyadri ranges of Maharashtra, India. Many mountains are called Bhairavgad one near the Chiplun-Karad district, one near Malshej Ghat and Bhandardara precinct near Ghanchakkar this third most towering peak of Maharashtra. Moroshicha Bhairavgad Trek will challenge your limits, once in a lifetime adventure. Seasoned trekkers and climbers should attempt Bhairavgad Fort with excellent technical support. Moroshicha Bhairavgad is easily visible while driving through the Malshej Ghat. One of the toughest treks in Maharashtra trail is highly exposed, and rock-cut steps are narrow. "
