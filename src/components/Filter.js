@@ -13,8 +13,8 @@ const Filter = (props) => {
   return (
     <div className='filter'>
       {
-        fData.map((data) => (
-          <div className='button-box'>
+        fData.map((data, index) => (
+          <div className='button-box' key={index}>
             <button key={data.id} onClick={() => filterHandler(data.title)}>{data.title}</button>
           </div>
         ))
